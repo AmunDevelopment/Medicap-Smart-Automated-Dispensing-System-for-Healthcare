@@ -1,5 +1,5 @@
 # Medicap: AI-Powered Medicine Dispensing Cabin
-
+![Design](views/assets/samples/desgin_1.jpg)
 ## Project Overview
 Medicap is a **secure, automated medicine dispensing system** designed for hospitals. It features **two motorized drawers** that operate based on **authorized input**, ensuring only verified personnel—using **Python-based face recognition**—can access medication. The system maintains **detailed logs** tracking **who accessed the cabin, when, and what was dispensed**. With integrated **inventory management, access control, and a responsive touchscreen GUI**, Medicap enhances **security, efficiency, and accountability** in hospital medication distribution.
 
@@ -41,7 +41,7 @@ The backend is responsible for **access control, inventory management, and loggi
 - Developed using **PySide6** for a **responsive touchscreen interface**.
 - Optimized for **small tablets** to provide user-friendly navigation.
 - Allows **authorized medical staff** to interact with the system easily.
-
+![Sample](views/assets/samples/gui_sample2.png)
 ## Communication & Data Exchange
 ### Software ↔ Hardware Communication
 - **Serial Communication** is used between **Arduino Mega (master)** and the **software**.
@@ -50,6 +50,7 @@ The backend is responsible for **access control, inventory management, and loggi
 
 ## Software Setup
 ### Required Libraries
-To run **Medicap**, install the following Python dependencies:
+To run **Medicap**, install the following  requirements:
 ```bash
-pip install face-recognition face_recognition_models numpy opencv-python pyserial PySide6 sqlite3
+pip install -r requirements.txt
+```
