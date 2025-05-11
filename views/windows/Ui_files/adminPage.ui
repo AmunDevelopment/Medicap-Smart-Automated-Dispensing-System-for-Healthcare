@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>adminPage</class>
+ <widget class="QWidget" name="adminPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>951</width>
+    <height>880</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QToolButton{
+	
+	background-color: rgb(229, 76, 115);
+	border: 2px solid #555;
+	border-radius: 20px;
+	
+	background-color: rgb(57, 62, 70);
+	border-style: outset;
+	font: 700 18pt &quot;Segoe UI&quot;;
+}
+QToolButton:hover{
+	
+	background-color: rgb(42, 46, 52);
+	color: rgb(197, 197, 197);
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="2" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>17</width>
+       <height>291</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>298</width>
+       <height>14</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="2">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>298</width>
+       <height>14</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="1">
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="spacing">
+      <number>15</number>
+     </property>
+     <item row="1" column="1">
+      <widget class="QToolButton" name="logout_toolButton">
+       <property name="minimumSize">
+        <size>
+         <width>151</width>
+         <height>121</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>151</width>
+         <height>121</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Exit</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../assets/resources.qrc">
+         <normaloff>:/icons/icons/logout.png</normaloff>:/icons/icons/logout.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>80</width>
+         <height>80</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QToolButton" name="viewData_toolButton">
+       <property name="minimumSize">
+        <size>
+         <width>151</width>
+         <height>121</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>121</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Data</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../assets/resources.qrc">
+         <normaloff>:/icons/icons/data.png</normaloff>:/icons/icons/data.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>80</width>
+         <height>80</height>
+        </size>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+       <property name="popupMode">
+        <enum>QToolButton::ToolButtonPopupMode::InstantPopup</enum>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QToolButton" name="addStaff_toolButton">
+       <property name="minimumSize">
+        <size>
+         <width>151</width>
+         <height>121</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>151</width>
+         <height>121</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Add</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../assets/resources.qrc">
+         <normaloff>:/icons/icons/addStaff.png</normaloff>:/icons/icons/addStaff.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>80</width>
+         <height>80</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QToolButton" name="camera_toolButton">
+       <property name="minimumSize">
+        <size>
+         <width>151</width>
+         <height>121</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>151</width>
+         <height>121</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Patient</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../assets/resources.qrc">
+         <normaloff>:/icons/icons/patientAdd.png</normaloff>:/icons/icons/patientAdd.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>80</width>
+         <height>80</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1">
+    <spacer name="verticalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>14</width>
+       <height>292</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../assets/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
